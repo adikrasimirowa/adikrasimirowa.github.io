@@ -96,21 +96,52 @@ footer p {
 
 @media only screen and (max-width: 768px){
 
+    .logo {
+        font-size: 6vw;
+        font-weight: 900;
+        color: #3F2F59; 
+    }
+
+    .menu ul li {
+        padding: 10px;
+        font-size: 3vw;
+        /* font-weight: 500; */
+    }
+    
     .wrrap {
         flex-flow: column;
     }  
-    
+    .home-image {
+        margin-top: 50px;
+    }
     .my-image-home {
-        width: 70%;
+        width: 100%;
         height: auto;
     }
 
     .description {
         padding-right: 0;
+        width: 100%;
     }
 
+    .description h1 {
+        padding-top: 10px;
+        font-size: 9vw;
+    }
+    
+
     .description p {
-        margin-bottom: 0;
+        margin-bottom: 20px;
+        font-size: 6vw;
+    }
+
+    .description a {
+        font-size: 6vw;
+        background: #3F2F59;
+        color: #ffffff;
+        padding: 5px;
+        border-radius: 5px;
+    
     }
 
 }
