@@ -41,6 +41,7 @@ body {
 
 .menu ul li a{
    text-decoration: none;
+   color: #3F2F59;
 }
 
 .wrrap {
@@ -61,12 +62,18 @@ body {
 }
 
 
-.wrrap.aboutme section h1{
+.wrrap.aboutme .section h1{
     font-size: 30px;
-    color:#504A59;
+    color:#3F2F59;
+    border-bottom: solid 4px #3F2F59;
+    width: fit-content;
+    font-weight: 700;
+
 }
-.wrrap.aboutme section{
-   padding-left: 20px;
+.wrrap.aboutme .section{
+   margin-left: 40px;
+   padding-top: 10px;
+
 }
 
 
