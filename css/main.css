@@ -42,6 +42,7 @@ body {
 .menu ul li a{
    text-decoration: none;
    color: #3F2F59;
+   font-weight: 500;
 }
 
 .wrrap {
