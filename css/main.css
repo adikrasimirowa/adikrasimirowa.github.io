@@ -6,7 +6,7 @@ body {
     color: #504A59;
 }
 
-.home-body{
+.home-body {
     background-image: radial-gradient(#eeeeee 5%, transparent 20%), radial-gradient(#eeeeee 5%, transparent 20%);
     background-color: rgb(255, 255, 255);
     background-position: 0 0, 10px 10px;
@@ -25,24 +25,25 @@ body {
     font-weight: 900;
     color: #3F2F59;
     text-decoration: none;
-    
+
 }
 
 .menu ul {
     display: flex;
     flex-flow: row wrap;
-    
+
 }
+
 .menu ul li {
     padding: 20px;
     font-size: 1.5vw;
     /* font-weight: 500; */
 }
 
-.menu ul li a{
-   text-decoration: none;
-   color: #3F2F59;
-   font-weight: 500;
+.menu ul li a {
+    text-decoration: none;
+    color: #3F2F59;
+    font-weight: 500;
 }
 
 .wrrap {
@@ -54,6 +55,7 @@ body {
     width: 100%;
     height: 90vh;
 }
+
 .wrrap.aboutme {
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -63,20 +65,84 @@ body {
 }
 
 
-.wrrap.aboutme .section h1{
+.wrrap.aboutme .section h1 {
     font-size: 30px;
-    color:#3F2F59;
-    /* border-bottom: solid 4px #3F2F59; */
+    color: #3F2F59;
     width: fit-content;
     font-weight: 700;
 
 }
-.wrrap.aboutme .section{
-   margin-left: 40px;
-   padding-top: 10px;
+
+.wrrap.aboutme .section {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.wrrap.mywork {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-flow: column;
 
 }
 
+.wrrap.article {
+    display: flex;
+    /* padding: 55px; */
+    align-items: center;
+    text-align: left;
+    flex-flow: column;
+    width: 100%;
+    height: auto;
+}
+
+.wrrap.article .section {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.wrrap.article .section h1 {
+    font-size: 30px;
+    color: #3F2F59;
+    width: fit-content;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.wrrap.article .section p {
+    font-size: 18px;
+    width: fit-content;
+    padding-bottom: 20px;
+}
+
+.article-cover {
+    width: 100%;
+}
+
+.article-images {
+    width: 50%;
+}
+
+/* ABOUT ME */
+
+.intro-words {
+    padding: 20px;
+}
+
+.intro-words h1 {
+    font-size: 4vw;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.first-articles img {
+    padding: 10px;
+    width: 40%;
+}
+
+.first-articles h3 {
+    font-size: 3vw;
+    padding: 20px;
+}
 
 .home-image {
     /* padding-left: 60px; */
@@ -126,12 +192,12 @@ footer p {
     padding: 10px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
 
     .logo {
         font-size: 6vw;
         font-weight: 900;
-        color: #3F2F59; 
+        color: #3F2F59;
     }
 
     .menu ul li {
@@ -139,16 +205,19 @@ footer p {
         font-size: 3vw;
         /* font-weight: 500; */
     }
-    
+
     .wrrap {
         flex-flow: column;
-    }  
+    }
+
     .wrrap.aboutme {
         height: auto;
     }
+
     .home-image {
         margin-top: 50px;
     }
+
     .my-image-home {
         width: 100%;
         height: auto;
@@ -163,7 +232,7 @@ footer p {
         padding-top: 10px;
         font-size: 9vw;
     }
-    
+
 
     .description p {
         margin-bottom: 20px;
@@ -176,7 +245,12 @@ footer p {
         color: #ffffff;
         padding: 5px;
         border-radius: 5px;
-    
+
     }
+
+    .article-images {
+        width: 100%;
+    }
+    
 
 }
