@@ -1041,3 +1041,7 @@ section .container {
 .gprev.gbtn {
 display: none;
 }
+
+.article-images {
+  width: 100%;
+}
