@@ -1045,3 +1045,13 @@ display: none;
 .article-images {
   width: 100%;
 }
+
+.zoom {
+  font-size: 16px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff;
+}
